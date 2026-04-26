@@ -1,3 +1,4 @@
+// 1-Indexed
 struct fenwickTree
 {
     int n;
