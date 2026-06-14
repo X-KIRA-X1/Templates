@@ -34,7 +34,7 @@ struct DSU
         if (u == v)
             return;
 
-        if (size[u] <= size[v])
+        if (size[u] < size[v])
             swap(u , v);
 
         size[u] += size[v];
