@@ -1,9 +1,9 @@
-struct dsu
+struct DSU
 {
     vector <int> parent , size;
     int numberOfSets;
 
-    dsu (int n)
+    DSU (int n)
     {
         parent.resize(n + 1);
         size.resize(n + 1);
