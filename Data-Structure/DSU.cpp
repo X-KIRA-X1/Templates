@@ -26,7 +26,7 @@ struct DSU
         */
     }
 
-    void unite (int u , int v) // unites by size
+    void unite (int u , int v) // unites by size (WE AS ONE)
     {
         u = getParent(u);
         v = getParent(v);
